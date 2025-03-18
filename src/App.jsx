@@ -36,7 +36,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className='container'>
       {books.map((book) => (
         <BookCard key={book.id} book={book} />
       ))}
